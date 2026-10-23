@@ -1,23 +1,20 @@
-"use client";
-
-import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
-  const [status, setStatus] = useState("checking...");
-
-  useEffect(() => {
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}/health`)
-    .then((res) => res.json())
-    .then((data) => 
-      setStatus(`server: ${data.status}, database: ${data.database}`)
-    )
-    .catch(() => setStatus("cannot reach server"));
-  }, []);
-
   return (
-    <main className="p-8">
-      <h1 className="text-2xl font-bold">AI Travel Planner</h1>
-      <p className="mt-4">{status}</p>
+    <main className="mx-auto flex min-h-screen max-w-md flex-col justify-center gap-6 p-6 text-center">
+      <h1 className="text-3xl font-bold">AI Travel Planner</h1>
+      <p className="text-gray-600">
+        Tell us where you want to go and when. Get a full day-by-day plan with costs.
+      </p>
+      <div className="flex justify-center gap-3">
+        <Link href="/register" className="rounded bg-black px-4 py-2 text-white">
+          Sign up
+        </Link>
+        <Link href="/login" className="rounded border px-4 py-2">
+          Log in
+        </Link>
+      </div>
     </main>
   );
 }
