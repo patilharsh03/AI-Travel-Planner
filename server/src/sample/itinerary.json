@@ -1,0 +1,79 @@
+{
+  "summary": "A relaxed two-day introduction to Jaipur: forts, bazaars and local food.",
+  "bestTimeNote": "October to March is the most comfortable time to visit.",
+  "stay": { "suggestion": "A mid-range hotel near MI Road", "pricePerRoomPerNight": 3500 },
+  "days": [
+    {
+      "day": 1,
+      "title": "Forts and old city",
+      "items": [
+        {
+          "timeSlot": "morning",
+          "startTime": "09:00",
+          "title": "Amber Fort",
+          "description": "Walk through the courtyards and mirror palace.",
+          "category": "sightseeing",
+          "durationMinutes": 150,
+          "place": { "name": "Amber Fort", "area": "Amer" },
+          "tip": "Go early to avoid the crowds and the heat.",
+          "costType": "per_person",
+          "amount": 550
+        },
+        {
+          "timeSlot": "afternoon",
+          "startTime": "13:30",
+          "title": "Lunch at a local thali place",
+          "description": "Try dal baati churma.",
+          "category": "food",
+          "durationMinutes": 60,
+          "place": { "name": "Local thali restaurant", "area": "Old City" },
+          "tip": "",
+          "costType": "per_person",
+          "amount": 350
+        },
+        {
+          "timeSlot": "evening",
+          "startTime": "17:00",
+          "title": "Auto-rickshaw tour of the old city",
+          "description": "Hawa Mahal, City Palace and the bazaars.",
+          "category": "transport",
+          "durationMinutes": 180,
+          "place": { "name": "Hawa Mahal", "area": "Old City" },
+          "tip": "Agree on the price before you start.",
+          "costType": "group",
+          "amount": 900
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "title": "Markets and sunset",
+      "items": [
+        {
+          "timeSlot": "morning",
+          "startTime": "10:00",
+          "title": "Shopping at Johari Bazaar",
+          "description": "Jewellery, textiles and block-printed fabric.",
+          "category": "shopping",
+          "durationMinutes": 120,
+          "place": { "name": "Johari Bazaar", "area": "Old City" },
+          "tip": "Bargain politely.",
+          "costType": "per_person",
+          "amount": 1000
+        },
+        {
+          "timeSlot": "evening",
+          "startTime": "17:30",
+          "title": "Sunset at Nahargarh Fort",
+          "description": "Views over the whole city.",
+          "category": "sightseeing",
+          "durationMinutes": 120,
+          "place": { "name": "Nahargarh Fort", "area": "Nahargarh Hills" },
+          "tip": "Take a cab up, and book the return in advance.",
+          "costType": "group",
+          "amount": 800
+        }
+      ]
+    }
+  ]
+}
